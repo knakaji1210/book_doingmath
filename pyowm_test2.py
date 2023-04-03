@@ -7,7 +7,7 @@ config_dict = get_default_config()
 config_dict["language"] = "ja" # 取得データの言語設定
 
 # PyOWMライブラリの初期化
-owm = OWM("fbe7246ccc7ba55f353359f98a6746ce", config_dict)
+owm = OWM("api-key", config_dict) # need to input api-key
 mgr = owm.weather_manager()
 
 # 現在の気象データを取得
