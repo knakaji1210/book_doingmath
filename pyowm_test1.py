@@ -2,7 +2,7 @@ import requests
 import json
 import pprint
 
-API_TOKEN = "fbe7246ccc7ba55f353359f98a6746ce"
+API_TOKEN = "" # need to input api-key
 
 if __name__ == "__main__":
     response = requests.get(
