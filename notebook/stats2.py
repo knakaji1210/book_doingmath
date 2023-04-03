@@ -3,6 +3,8 @@ stats.py
 
 Python module with functions for calculating common statistical measures
 
+used in chapter 03
+
 '''
 from collections import Counter
 
